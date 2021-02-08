@@ -1,0 +1,14 @@
+.HomeApp {
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+}
+
+.HomeApp ul, .HomeApp ul li {
+  list-style: none;
+  padding: 0;
+}
+
+.HomeApp ul li {
+  padding: 8px;
+}
