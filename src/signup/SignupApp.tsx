@@ -1,10 +1,10 @@
 import React from 'react';
-import { Steps, Button, Input, List, Spin } from 'antd';
+import { Steps, Button, Input, List } from 'antd';
 import { EyeOutlined, EyeInvisibleOutlined, LoadingOutlined } from '@ant-design/icons';
 import './SignupApp.css';
-import { Redirect, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 
-type SignupData = {
+export type SignupData = {
   name: string,
   taxId: string,
   password: string,
